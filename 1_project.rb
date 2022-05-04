@@ -15,8 +15,6 @@ def auth_user(username, password, list_of_users)
   "Credentials not correct"
 end
 
-
-
 puts "Welcome to the Authenticator"
 25.times { print "-" }
 
@@ -24,7 +22,6 @@ puts "This program will take input from the user and compare passwords"
 puts "If password is correct, you will get back the user object"
 
 attempts = 1
-
 while attempts < 4
   print "Username: "
   username = gets.chomp
